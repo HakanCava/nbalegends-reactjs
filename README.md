@@ -34,6 +34,9 @@ SOLUTION
 └── yarn.lock
 ```
 
+## Deployed
+- Vercel: https://nbalegends-reactjs.vercel.app/
+-Netlify: https://mynba-legends.netlify.app/
 
 ## Objective
 
