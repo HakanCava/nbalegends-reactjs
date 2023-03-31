@@ -1,38 +1,90 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 1rem auto;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.input input {
+  width: 40vw;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  /* color:rgba(0, 0, 0, 0.459); */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  background-image: url("./assets/nba.png");
+  background-size: 500px;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.container-card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.card p {
+  background-color: rgba(0, 0, 0, 0.781);
   color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 0 0 10px 10px;
+}
+.card-photo {
+  width: 22rem;
+  height: 25rem;
+  border-radius: 10px 10px 0 0;
+
+}
+.card-photo:hover {
+padding: .1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.card-statistic {
+  display: flex;
+  justify-content: center;
+  padding-left: 3rem;
+  align-items: start;
+  flex-direction: column;
+  margin: 1 rem auto;
+  width: 22rem;
+  height: 25rem;
+  background-color: aliceblue;
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.state {
+  text-align: left;
+  padding: 0.5rem 1rem;
 }
