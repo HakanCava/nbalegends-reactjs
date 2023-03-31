@@ -1,4 +1,4 @@
-# Project: NBA Legends App (RP-02)
+# Project: NBA Legends App 
 
 ## Description
 
