@@ -39,9 +39,6 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Expected Outcome
-
-![Project 002 Snapshot](nba-legends.gif)
 
 ## Objective
 
@@ -73,19 +70,6 @@ Build a NBA Legends App using ReactJS.
 
 - Step 5: Add project gif to your project and README.md file.
 
-## Deployment Notes
 
-1. There should be only one lock file `package-lock.json` or `yarn.lock`.
-2. There shouldn't be any warnings in your application.
-3. If you have deployed your app to github pages before, you should remove `homepage` property from `package.json`.
-
-You can use any of these sites for deployment
-
-- https://www.netlify.com/
-- https://vercel.com/
-- https://render.com/
-- https://app.cyclic.sh/
-
-- You can add additional functionalities to your app.
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
